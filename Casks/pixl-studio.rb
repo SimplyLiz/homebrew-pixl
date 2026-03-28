@@ -1,6 +1,6 @@
 cask "pixl-studio" do
   version "1.0.0"
-  sha256 ":no_check" # Updated automatically by CI on release
+  sha256 :no_check
 
   url "https://github.com/SimplyLiz/PIXL/releases/download/studio-v#{version}/PIXL-Studio.dmg"
   name "PIXL Studio"
